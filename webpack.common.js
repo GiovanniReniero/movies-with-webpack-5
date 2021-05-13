@@ -1,8 +1,6 @@
-const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
    entry: './src/index.js',
    plugins: [
      new HtmlWebpackPlugin({
@@ -10,10 +8,6 @@ module.exports = {
        template:"./src/template.html",
      }),
    ],
-  output: {
-    filename: 'bundle.[contenthash].js',
-    path: path.resolve(__dirname, 'dist'),
-  },
   devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist',
