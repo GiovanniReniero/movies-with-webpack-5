@@ -1,16 +1,21 @@
 import _ from 'lodash';
 import './style.css';
-import printMe from './print.js';
+import {dealWithEvent} from "./dealWithEvent"
+import {suggestions} from "./suggestions"
+
+
+
+
 
 const insert = document.createElement("h1")
-insert.innerText = "Come on Gio , Kepeep on going"
+insert.innerText = "Come on Gio , Kepeepity oni gowen on"
 document.body .appendChild(insert)
-const btn = document.createElement('button');
-btn.innerHTML = 'Click me and check the console!';
-btn.addEventListener("click", printMe)
-document.body.appendChild(btn);
+
+ 
+const userEntry = document.querySelector("form")
+userEntry.addEventListener("submit", dealWithEvent)
+
+suggestions("Terminator")
 
 
 
-
-// btn.onclick = printMe;
