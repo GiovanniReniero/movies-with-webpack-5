@@ -4,12 +4,9 @@ import {dealWithEvent} from "./dealWithEvent"
 import {suggestions} from "./suggestions"
 
 
-
-
-
 const insert = document.createElement("h1")
-insert.innerText = "Come on Gio , Kepeepity oni gowen on"
-document.body .appendChild(insert)
+insert.innerText = "Come on Gio , Kepeepity oni gowen on fa eva"
+// document.body .appendChild(insert)
 
  
 const userEntry = document.querySelector("form")

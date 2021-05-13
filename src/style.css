@@ -4,3 +4,21 @@ h1 {
   color: cornflowerblue;
   font-size: 40px;
 }
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: darkslategray;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: darkslategray;
+  font-size: 24px;
+  margin-top: 0px;
+}
+
+body {
+  background-color: papayawhip;
+}
