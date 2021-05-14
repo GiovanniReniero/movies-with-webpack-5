@@ -16,8 +16,8 @@ export const printMovies = (data) => {
     titolo.innerText = title
     anno.innerText = year
     billBoard.classList.add("locandina")
-    section.appendChild(titolo)
-    section.appendChild(anno)
+    // section.appendChild(titolo)
+    // section.appendChild(anno)
     section.appendChild(billBoard)
   }
 }

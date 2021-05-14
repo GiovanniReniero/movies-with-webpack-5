@@ -22,3 +22,22 @@ h3 {
 body {
   background-color: papayawhip;
 }
+
+.locandina{
+  height: 200px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 4px;
+}
+
+
+/* .entry { */
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+/* } */
